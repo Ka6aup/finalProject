@@ -6,19 +6,17 @@ public class UserDTO {
     private String email;
     private String password;
 
-    // Конструктор без аргументов
     public UserDTO() {
     }
 
-    // Конструктор со всеми полями
     public UserDTO(Long id, String username, String email, String password) {
         this.id = id;
         this.username = username;
         this.email = email;
-        this.password = password; // Опять же, будьте осторожны с паролем.
+        this.password = password;
     }
 
-    // Геттеры и сеттеры
+
     public Long getId() {
         return id;
     }

@@ -1,4 +1,4 @@
-# Базовый образ с JDK 21
+
 FROM openjdk:21-jdk-oracle as build
 
 # Установка рабочей директории внутри Docker образа

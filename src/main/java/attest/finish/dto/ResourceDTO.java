@@ -8,11 +8,9 @@ public class ResourceDTO {
     private String url;
     private Long categoryId; // Принадлежность к категории по ID
 
-    // Конструктор без аргументов
     public ResourceDTO() {
     }
 
-    // Конструктор со всеми полями
     public ResourceDTO(Long id, String title, String description, String type, String url, Long categoryId) {
         this.id = id;
         this.title = title;
@@ -22,7 +20,6 @@ public class ResourceDTO {
         this.categoryId = categoryId;
     }
 
-    // Геттеры и сеттеры
     public Long getId() {
         return id;
     }

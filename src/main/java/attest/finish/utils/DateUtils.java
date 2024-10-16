@@ -12,7 +12,6 @@ public class DateUtils {
 
 
     private DateUtils() {
-        // Закрытый конструктор
     }
 
     public static String formatDate(LocalDate date) {

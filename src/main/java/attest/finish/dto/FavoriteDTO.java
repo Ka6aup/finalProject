@@ -5,18 +5,15 @@ public class FavoriteDTO {
     private Long userId;
     private Long resourceId;
 
-    // Конструктор без аргументов
     public FavoriteDTO() {
     }
 
-    // Конструктор со всеми полями
     public FavoriteDTO(Long id, Long userId, Long resourceId) {
         this.id = id;
         this.userId = userId;
         this.resourceId = resourceId;
     }
 
-    // Геттеры и сеттеры
     public Long getId() {
         return id;
     }

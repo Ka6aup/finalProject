@@ -6,18 +6,15 @@ public class CategoryDTO {
     private String name;
     private String description;
 
-    // Конструктор по умолчанию
     public CategoryDTO() {
     }
 
-    // Конструктор со всеми полями
     public CategoryDTO(Long id, String name, String description) {
         this.id = id;
         this.name = name;
         this.description = description;
     }
 
-    // Геттеры и сеттеры
     public Long getId() {
         return id;
     }
